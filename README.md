@@ -31,4 +31,15 @@ The accuracy for the SMOTE Model is slightly better than the previous, at 66%. T
 
 ![randomforest2](https://user-images.githubusercontent.com/82550431/136349563-5f9a42f2-2b9f-46b9-99e7-a27bbce0b60a.PNG)
 
-Random forest has shown to be better than the previous models, with a accuracy of 78.9%. The precision, recall and f1 of low risk loans were all at 100%. High risk loans had a high precision of 76%, however the recall is very low at
+Random forest has shown some interesting results, with a accuracy of 3%. The precision, recall and f1 of low risk loans varied between 70%-90%. The f1 score low was 7%.
+
+# Ensemble
+
+![Ensemble](https://user-images.githubusercontent.com/82550431/136351338-cf9d4106-2cb2-4e09-a43d-12616d6cc30f.PNG)
+
+![Ensemble2](https://user-images.githubusercontent.com/82550431/136351386-0694ba39-5546-458e-865b-1b0b6b7ef1e9.PNG)
+
+Ensemble outperformed all the otrher alogrithms by far, with an accuracy of 93%. Although the precision for detecting high risk loans is very low at 9%.
+
+# Summary
+Overall, all the models used here were relatively weak at predicting credit risk. The ensemble model gave us the best accuracy and very high recall value, which would allow us to detect most high risk loans. Unfortunately, the precision for the ensemble model is still extremely low, which would falsely tag many low risk loans. To conclude the overview, I dont recommend using a specific model in their current state.
